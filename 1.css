@@ -1,5 +1,9 @@
 *{margin:0;padding:0; }
 
+body {
+    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .top1 .banthan {
     padding-top: 23%;
 }
@@ -47,7 +51,11 @@
     background: #00000057;
 }
 
-.top6 a.nut1.btn.btn-default {border-radius: 0;font-size: 23px;margin-right: 15px;}
+.top6 a.nut1.btn.btn-default {
+    border-radius: 15px;
+    font-size: 23px;
+    margin-right: 15px;
+}
 
 .top6 a.nut1.btn.btn-default:hover {
     background: #a5a5a5b3;
@@ -64,7 +72,17 @@
     padding: 50px;
 }
 
-a.btn.bnt-default.viewmoreitem {border-radius: 0;background: #00000066;color: white;margin-bottom: 24px;}
+a.btn.bnt-default.viewmoreitem {
+    border-radius: 15px;
+    background: #00000066;
+    color: white;
+    margin-bottom: 24px;
+}
+
+a.btn.bnt-default.viewmoreitem:hover {
+    background-color: #827f7fa1;
+    color: blue;
+}
 
 .top5 img.img-responsive {
     margin-bottom: 25px;
@@ -85,12 +103,11 @@ a.btn.bnt-default.viewmoreitem {border-radius: 0;background: #00000066;color: wh
     width: 100%;
     color: white;
     background-size: cover;
-    padding-top: 227px;
+    padding-top: 155px;
 }
 
 .top3 a.btn.btn-default.nuttrang {
-    /* border: none; */
-    border-radius: 0;
+     border-radius: 15px;
 }
 
 .iconto .fa {
@@ -134,18 +151,19 @@ hr.vienduoi {
 
 .top1 a.btn.btn-default {
     border: none;
-    border-radius: 0px;
+    border-radius: 15px;
     background-color: #b9b3b3;
     font-size: 18px;
     color: white;
 }
 
 a.btn.btn-default:hover {
-    background: #50504ffc;
+    background: #a29b9b;
+    color: blue;
 }
 
 .top6 a.nut2.btn.btn-default {
-    border-radius: 0;
+    border-radius: 15px;
     font-size: 23px;
     margin-right: 15px;
     background: #000000cf;
@@ -153,13 +171,11 @@ a.btn.btn-default:hover {
 }
 
 .top6 a.nut2.btn.btn-default:hover {
-    background: #0000006e;
+    background: #00000061;
+    color: blue;
 }
 
 
-body {
-    font-family: "Source Sans Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 
 .footer {
     padding: 20px;

@@ -10,7 +10,9 @@
  		return false;
 	})
 
-
+/*WOW.js*/
+ new WOW().init();
+ 
 
 // xác định độ cao của màn hình
  	var docao = $(window).height(); // hàm này để xem được độ cao của màn hình khi cho to hay cho nhỏ màn hình
